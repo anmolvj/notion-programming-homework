@@ -4,7 +4,8 @@
   "description": "Code related to notes in my Notion Programming Homework Page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/anmolvj/notion-programming-homework/issues"
   },
-  "homepage": "https://github.com/anmolvj/notion-programming-homework#readme"
+  "homepage": "https://github.com/anmolvj/notion-programming-homework#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
